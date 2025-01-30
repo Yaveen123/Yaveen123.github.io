@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Fresher</title>
+    <link rel="icon" type="image/x-icon" href="../icons/other/fresherfavicon.ico">
+
+    <script  src="../scripts/loginCheck.js" type="module" defer></script>
+
+    <!-- MARK: Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <!--MARK: CSS -->
+    <!-- layout -->
+    <link rel="stylesheet" href="../css/layout/main-body.css">
+    <link rel="stylesheet" href="../css/layout/feed-container.css">
+    <link rel="stylesheet" href="../css/layout/true-body.css">
+    <link rel="stylesheet" href="../css/test.css">
+
+    <!-- components -->
+    <link rel="stylesheet" href="../css/components/comp-navbar.css">
+    <link rel="stylesheet" href="../css/components/comp-header.css">
+    <link rel="stylesheet" href="../css/components/comp-buttons.css">
+    <link rel="stylesheet" href="../css/components/comp-titlebar.css">
+    <link rel="stylesheet" href="../css/components/comp-cards.css">
+
+    <!-- Client side scripts (JS) -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.1"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
+    <script  src="../scripts/feed.js"></script>
+    <script src="../scripts/feed-logic.js" type="module"></script>
+</head>
+<body class="main-body">
+    <!-- Navbar -->
+    <nav class="comp-navbar"> 
+        <!-- Home -->
+        <a class="comp-navbar-icon-default" href="../html/feed.html" style="background-color: rgba(4, 86, 1, 0.1);">
+            <img src="../icons/navbar/home.svg" class="comp-navbar-svg" alt="Home icon">
+        </a>
+        <!-- RSS -->
+        <a class="comp-navbar-icon-default" href="../html/settings-rss.html">
+            <img src="../icons/navbar/rss.svg" class="comp-navbar-svg" alt="RSS settings icon">
+        </a>
+        <!-- Settings -->
+        <a class="comp-navbar-icon-default" href="../html/settings-home.html">
+            <img src="../icons/navbar/settings.svg" class="comp-navbar-svg" alt="General settings icon">
+        </a>
+        <!-- Account -->
+        <a class="comp-navbar-icon-default" href="../html/settings-account.html">
+            <img src="../icons/buttons/account.svg" class="comp-navbar-svg" alt="Account profile picture">
+        </a>
+    </nav>
+
+    <div class="true-body" id="truebody">
+        <!-- Titlebar with "Fresher" -->
+        <header class="titlebar-container">
+            <div class="progress visible" id="hideonload">
+                <div class="progress-value"></div>
+            </div>
+            <img src="../icons/other/logo.svg" alt="Fresher Logo" class="hidden" id="showonload">
+        </header>
+
+        
+    </div>
+    
+    <script> makeArticleImageHeightResponsive(); </script>
+
+
+    
+
+</body>
+</html>

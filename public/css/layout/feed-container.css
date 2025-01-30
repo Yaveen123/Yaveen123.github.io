@@ -1,0 +1,65 @@
+/* Desktop/Tablet */
+@media (min-width: 601px) {
+    .feed-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 95%;
+        gap: 10px;
+        max-width: 1500px;
+        padding: 0px 10px;
+        }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .feed-container {
+        display: flex;
+        padding: 0px 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+}
+
+
+/*Fairbanks, S (2013) Super Simple Progress Bar, Accessed Jan 30 2025, https://devsnap.me/css-progress-bars*/
+.progress {
+    background: #016201;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 200px;
+}
+    
+.progress-value {
+animation: load 3s normal forwards;
+box-shadow: 0 10px 40px -10px #fff;
+border-radius: 100px;
+background: #fff;
+height: 10px;
+width: 0;
+}
+
+@keyframes load {
+0% { width: 0; }
+100% { width: 68%; }
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    width:0;
+    transition: all 0.5s ease-in-out;
+}
+
