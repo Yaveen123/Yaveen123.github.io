@@ -1,0 +1,16 @@
+.typography-test {
+    color: #1500FF;
+font-family: "DM Sans";
+font-size: 53px;
+font-style: normal;
+font-weight: 700;
+line-height: 102.382%; /* 54.262px */
+letter-spacing: -1.06px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-color: #C8FF00;
+text-decoration-thickness: 3.5%; /* 1.855px */
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
