@@ -21,3 +21,103 @@
     flex: 1 0 0;
     flex-wrap: wrap;
 }
+
+.card {
+    display: flex;
+height: 499px;
+min-width: 320px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+border-radius: 10px 10px 10px 0px;
+background: #FFF;
+}
+
+.card__image {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 10px 10px 0px 0px;
+}
+
+.card__content {
+    display: flex;
+padding: 21px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.card__content__button {
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 5px 5px 5px 0px;
+background: #3C2BF6;
+height: 38px;
+border: transparent;
+}
+
+.card__typography--header--bold {
+    color: #000;
+font-family: "DM Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 102.382%; /* 32.762px */
+}
+
+.card__typography--header--thin {
+color: #000;
+font-family: "DM Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 200;
+line-height: 102.382%;
+}
+
+.card__typography--header--thin--underline {
+color: #000;
+font-family: "DM Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 200;
+line-height: 102.382%;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-color: #C9FF00;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.card__typography--mono {
+color: #000;
+font-family: "DM Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.84px;
+}
+
+.card__typography--button {
+color: #C9FF00;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card__marginless {
+    margin: 0px;
+}
