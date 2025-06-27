@@ -9,7 +9,8 @@ gap: -80px;
 align-self: stretch;
 background: rgba(0, 0, 0, 0.05);
 backdrop-filter: blur(49.900001525878906px);
-position: relative;
+position: sticky;
+top: 0px;
 }
 
 .header__logo-backing-container {
