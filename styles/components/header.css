@@ -12,6 +12,17 @@ backdrop-filter: blur(49.900001525878906px);
 position: sticky;
 top: 0px;
 }
+.header--green {
+    display: flex;
+    height: 91px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -80px;
+    align-self: stretch;
+    background: #C9FF00;
+    position: sticky;
+    top: 0px;
+    }
 
 .header__logo-backing-container {
 display: flex;
@@ -25,6 +36,11 @@ align-self: stretch;
     width: 195.918px;
 align-self: stretch;
 background: #F5F5F5;
+}
+.header__logo-backing-container__background--green {
+    width: 195.918px;
+align-self: stretch;
+background: #C9FF00;
 }
 
 .header__logo-backing-container__nav-background {
