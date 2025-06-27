@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="index.css">
 
     <!-- TO DELETE -->
@@ -21,7 +26,9 @@
     </script>
 </head>
 <body>
+    <!-- start header logo -->
     <div class="header">
+        <!-- header logo -->
         <div class="header__logo-backing-container">
             <div class="header__logo-backing-container__background"></div>
             <div class="header__logo-backing-container__nav-background"></div>
@@ -30,6 +37,7 @@
             </div>
         </div>
     </div>
+    <!-- Header links -->
     <div class="header__navigation-container">
         <div class="header__navigation-container__empty-content"></div>
         <div class="header__navigation-container__links">
@@ -37,20 +45,79 @@
             <p class="header__navigation-container__links__typography--thin">Privacy policy</p>
             <p class="header__navigation-container__links__typography--bold">About StopTheScroll</p>
         </div>
+        
+        <!-- header translate -->
+        <!-- W3Schools (n.d.) How TO - Google Translate https://www.w3schools.com/howto/howto_google_translate.asp -->
         <div class="header__navigation-container__divider"></div>
-        <div id="google_translate_element" class="header__top__translate-icon">
-            
-        </div>
+        <div id="google_translate_element" class="header__top__translate-icon">        </div>
         <img src="/images/icons/translate.svg" class="header__navigation-container__icon" alt="Translate icon.">
-
-
         <script type="text/javascript"> 
             function googleTranslateElementInit() {
                 new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
             }
         </script>
-
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+        
+    
+    </div>
+
+
+    <!-- hero section -->
+    <section class="hero__box">
+        <div class="hero">
+            <div class="hero__text-container">
+                <p>
+                    <span class="hero__typography--normal">It's time to </span>
+                    <span class="hero__typography--bold">take back control </span>
+                    <span class="hero__typography--thin">of your data, privacy, and scroll</span>
+                </p>
+                <p>
+                    <span class="hero__typography--mono--bold">Social media, data privacy, and mental health:</span>
+                    <span class="hero__typography--mono--thin"> we're here to make your relationship with the digital world healthier.</span>
+                </p>
+            </div>
+            <div class="hero__image" alt="Hero image. Photo of man sitting sadly on grass."></div>
+        </div>
+    </section>
+
+    <!-- introductory section -->
+    <!-- this is wrapped in a div to justify it to centre -->
+    <div style="display: flex; justify-content: center;align-items: center;">
+        <section class="introductory">
+            <p style="flex: 1 0 0;">
+                <span class="introductory__typography--semi-light">The </span>
+                <span class="introductory__typography--bold">Scroll </span>
+                <span class="introductory__typography--semi-light">isn't just about </span>
+                <span class="introductory__typography--normal">mindless scrolling</span>
+            </p>
+            <p style="flex: 1 0 0;">
+                <span class="hero__typography--mono--bold">The scroll is social media, your mental health, your privacy, and the </span>
+                <span class="hero__typography--mono--bold--italic">future of our generation. </span>
+                <br>
+                <br>
+                <span class="hero__typography--mono--thin">We've never experienced such universal and constant digital connection before, and this has reshaped the way we interact with others, perceive ourselves, and navigate the world around us.</span>
+            </p>
+        </section>
+    </div>
+
+    <!-- articles -->
+    <div class="card-body">
+        <div class="card-body__inner">
+
+            <!-- card start -->
+            <div class="card">
+                <div class="card__image"> <img src="/images/display-graphics/survelliance.png" alt="Survelliance cameras"></div>
+                <div class="card__content">
+                    <p>The Invisible Hand: How your online data is really collected.</p>
+                    <p>We all know that digital platforms collect our data, but how do they know it's you?</p>
+                    <button class="card__content__button">
+                        <p>Open resource</p>
+                        <img src="/images/icons/out.svg" alt="Arrow outwards.">
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

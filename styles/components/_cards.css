@@ -1,0 +1,23 @@
+.card-body {
+    display: flex;
+    padding: 51px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.card-body__inner {
+    display: flex;
+    max-width: 1000px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}

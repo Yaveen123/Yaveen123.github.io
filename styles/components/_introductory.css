@@ -1,0 +1,35 @@
+.introductory {
+    display: flex;
+max-width: 1000px;
+padding: 50px 30px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.introductory__typography--normal {
+    color: #000FF8;
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.382%;
+letter-spacing: 0.8px;
+}
+.introductory__typography--semi-light {
+    color: #000FF8;
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 102.382%; /* 40.953px */
+letter-spacing: 0.8px;
+}
+.introductory__typography--bold {
+    color: #3C2BF6;
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 102.382%;
+}

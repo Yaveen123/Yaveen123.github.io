@@ -1,0 +1,48 @@
+
+/* Not sure if this is malicious or not */
+/* but it took a LOT of wrangling with Google's CSS to hide it's content */
+/* Apu (2023) How to customise google translate button using CSS https://www.3schools.in/2021/02/how-to-customize-google-translate.html */
+
+.goog-logo-link{
+display:none !important;
+}
+.goog-te-gadget{
+color:transparent!important;
+font-size: 0 !important;
+line-height: 0 !important
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+display: none;
+}
+
+
+#google_translate_element select{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.header__navigation-container__icon {
+    position: absolute;
+    top: 22px;
+    right: 7px;
+    z-index: 1000;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+}
+
+.skiptranslate {
+    width: 0px;
+}

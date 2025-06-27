@@ -1,0 +1,93 @@
+.hero__box {
+    display: flex;
+padding: 51px 0px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 30px;
+align-self: stretch;
+background: rgba(0, 0, 0, 0.04);
+}
+
+.hero {
+    display: flex;
+max-width: 1000px;
+padding: 0px 30px;
+align-items: center;
+gap: 30px;
+align-self: stretch;
+}
+
+.hero__text-container {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex: 1 0 0;
+}
+
+.hero__image {
+    max-width: 485px;
+min-height: 261px;
+flex: 1 0 0;
+align-self:stretch;
+border-radius: 10px 10px 10px 0px;
+background: url(/images/display-graphics/mansitting.png) lightgray 50% / cover no-repeat;
+}
+
+
+.hero__typography--normal {
+    color: #000FF8;
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.382%; /* 49.143px */
+letter-spacing: 1px;
+}
+.hero__typography--bold {
+    color: #000FF8;
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 102.382%;
+letter-spacing: 1px;
+}
+.hero__typography--thin {
+    color: rgba(0, 15, 248, 0.64);
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 200;
+line-height: 102.382%;
+letter-spacing: 1px;
+}
+.hero__typography--mono--bold {
+    color: #000FF8;
+font-family: "DM Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1px;
+}
+.hero__typography--mono--thin {
+    color: #000FF8;
+font-family: "DM Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -1px;
+}
+.hero__typography--mono--bold--italic {
+    color: #000FF8;
+font-family: "DM Mono";
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.84px;
+}
