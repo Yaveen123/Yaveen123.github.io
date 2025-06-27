@@ -9,7 +9,7 @@ display:none !important;
 .goog-te-gadget{
 color:transparent!important;
 font-size: 0 !important;
-line-height: 0 !important
+line-height: 0 !important;
 }
 
 .VIpgJd-ZVi9od-l4eHX-hSRGPd {
@@ -41,8 +41,10 @@ display: none;
     width: 24px;
     height: 24px;
     pointer-events: none;
+    overflow-x: hidden;
 }
 
 .skiptranslate {
     width: 0px;
+    overflow-x: hidden;
 }

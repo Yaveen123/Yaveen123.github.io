@@ -5,9 +5,38 @@
 @import url(styles/components/cards.css);
 @import url(styles/components/footer.css);
 
-body {
+
+@media (max-width: 700px) {
+    body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    margin: 0px;
+    }
+
+    html {
+        overflow-x: hidden;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
 }
+/* 
+@media (min-width: 701px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto; 
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    html {
+        overflow-x: auto;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+}   }
+ */
