@@ -1,9 +1,9 @@
-@import url(/styles/components/_gtranslate.css);
-@import url(/styles/components/_header.css);
-@import url(/styles/components/_hero.css);
-@import url(/styles/components/_introductory.css);
-@import url(/styles/components/_cards.css);
-@import url(/styles/components/_footer.css);
+@import url(styles/components/_gtranslate.css);
+@import url(styles/components/_header.css);
+@import url(styles/components/_hero.css);
+@import url(styles/components/_introductory.css);
+@import url(styles/components/_cards.css);
+@import url(styles/components/_footer.css);
 
 body {
     margin: 0px;
