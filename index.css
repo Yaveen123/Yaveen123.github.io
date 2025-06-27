@@ -5,7 +5,7 @@
 @import url(styles/components/cards.css);
 @import url(styles/components/footer.css);
 @import url(styles/components/auxiliaryhero.css);
-
+@import url(styles/components/articlehero.css);
 
 @media (max-width: 700px) {
     body {

@@ -1,0 +1,112 @@
+.article-hero-box {
+    display: flex;
+padding-top: 51px;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+align-self: stretch;
+background: linear-gradient(180deg, #3C2BF6 88.81%, #FFF 88.82%);
+justify-content: center;
+}
+
+.article-hero {
+    display: flex;
+max-width: 750px;
+padding: 0px 30px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 30px;
+align-self: center;
+}
+
+.article-hero__container {
+    display: flex;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+}
+
+.article-hero__container__image {
+
+align-self: stretch;
+aspect-ratio: 654.00/433.93;
+border-radius: 10px 10px 10px 0px;
+overflow: hidden; 
+width: 100%;
+height: 100%;
+}
+
+.article-hero__container__decorative-element {
+    width: 2px;
+align-self: stretch;
+background: rgba(255, 255, 255, 0.70);
+}
+
+.article-hero__container__text-wrap {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex: 1 0 0;
+}
+
+.article-hero__typography--normal {
+color: #FFF;
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.382%; /* 49.143px */
+}
+
+.article-hero__typography--thin {
+color: #FFF;
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 200;
+line-height: 102.382%;
+}
+
+.article-hero__typography--thin--underline {
+color: #FFF;
+font-family: "DM Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 200;
+line-height: 102.382%;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: 2px;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.article-hero__typography--mono {
+    color: #FFF;
+font-family: "DM Mono";
+font-size: 14px;
+font-style: normal;
+font-weight:400;
+line-height: normal;
+letter-spacing: -0.84px;
+}
+
+.article-hero__typography--author {
+color: #FFF;
+font-family: "DM Mono";
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.5px;
+    align-self: flex-start;
+}
+
+
+.article-hero__image-touchup {
+    width:100%; height:auto; display:block; border-radius: 10px 10px 10px 0px;
+}
