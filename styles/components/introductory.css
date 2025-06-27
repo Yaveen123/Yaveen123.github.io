@@ -1,11 +1,28 @@
-.introductory {
-    display: flex;
-max-width: 1000px;
-padding: 50px 30px;
-align-items: center;
-gap: 10px;
-align-self: stretch;
+
+
+@media (max-width: 700px) {
+    .introductory {
+        display: flex;
+        max-width: 1000px;
+        padding: 50px 30px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        flex-direction: column;
+    }
 }
+@media (min-width:701px) {
+    .introductory {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        padding: 50px 30px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+}
+
 
 .introductory__typography--normal {
     color: #000FF8;

@@ -26,6 +26,8 @@
     </script>
 
     <script src="/index.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico">
 </head>
 <body style=" margin: 0px;">
     <!-- start header logo -->
@@ -35,16 +37,19 @@
             <div class="header__logo-backing-container__background"></div>
             <div class="header__logo-backing-container__nav-background"></div>
             <div class="header__logo-backing-container__logo-container">
-                <img src="/images/header-logo.svg" alt="StopTheScroll logo">
+                    <img src="/images/header-logo.svg" alt="StopTheScroll logo">
             </div>
         </div>
             <!-- Header links -->
     <div class="header__navigation-container">
-        <div class="header__navigation-container__empty-content"></div>
+        <a href="/">
+            <div class="header__navigation-container__empty-content"></div>
+        </a>
+        
         <div class="header__navigation-container__links">
-            <p class="header__navigation-container__links__typography--thin">Send us feedback</p>
-            <p class="header__navigation-container__links__typography--thin">Privacy policy</p>
-            <p class="header__navigation-container__links__typography--bold">About StopTheScroll</p>
+            <a class="header__navigation-container__links__typography--thin" href="/feedback.html" >Send us feedback</a>
+            <a class="header__navigation-container__links__typography--thin" href="/privacypolicy.html">Privacy policy</a>
+            <a class="header__navigation-container__links__typography--thin" href="/about.html">About StopTheScroll</a>
         </div>
         
         <!-- header translate -->
@@ -126,12 +131,13 @@
     <div class="card-body">
         <div class="card-body__inner">
             <!-- card start -->
-            <article class="card">
+            <a class="card" href="/articles/1.html">
                 <div class="card__image" alt="Survelliance cameras" style="background: url(/images/display-graphics/mansad.png) lightgray 50% / cover no-repeat;"> </div>
                 <div class="card__content">
                     <p class="card__marginless">
-                        <span class="card__typography--header--thin--underline">Scary statistics </span>
-                        <span class="card__typography--header--thin">don't fix the problem; </span>
+                        <span class="card__typography--header--bold">Scary </span>
+                        <span class="card__typography--header--thin--underline">statistics</span>
+                        <span class="card__typography--header--thin">  don't fix the problem; </span>
                         <span class="card__typography--header--bold">they make it worse </span>
                     </p>
                     <p class="card__typography--mono card__marginless">We all know that digital platforms collect our data, but how do they know it's you?</p>
@@ -140,10 +146,10 @@
                         <img src="/images/icons/out.svg" alt="Arrow outwards.">
                     </button>
                 </div>
-            </article>
+            </a>
 
             <!-- card start -->
-            <article class="card">
+            <a class="card"  href="/articles/2.html">
                 <div class="card__image" alt="Survelliance cameras" style="background: url(/images/display-graphics/survelliance.png) lightgray 50% / cover no-repeat;"> </div>
                 <div class="card__content">
                     <p class="card__marginless">
@@ -157,10 +163,10 @@
                         <img src="/images/icons/out.svg" alt="Arrow outwards.">
                     </button>
                 </div>
-            </article>
+            </a>
 
             <!-- card start -->
-            <article class="card">
+            <a class="card" href="/articles/3.html">
                 <div class="card__image" alt="Survelliance cameras" style="background: url(/images/display-graphics/marchofprogress.png) lightgray 50% / cover no-repeat;"> </div>
                 <div class="card__content">
                     <p class="card__marginless">
@@ -176,10 +182,10 @@
                         <img src="/images/icons/out.svg" alt="Arrow outwards.">
                     </button>
                 </div>
-            </article>
+            </a>
 
             <!-- card start -->
-            <article class="card">
+            <a class="card"  href="/articles/4.html">
                 <div class="card__image" alt="Survelliance cameras" style="background: url(/images/display-graphics/womanblinded.png) lightgray 50% / cover no-repeat;"> </div>
                 <div class="card__content">
                     <p class="card__marginless">
@@ -194,17 +200,20 @@
                         <img src="/images/icons/out.svg" alt="Arrow outwards.">
                     </button>
                 </div>
-            </article>
+            </a>
         </div>
     </div>
 
     <footer class="footerbox">
         <div class="footer">
-            <img src="/images/header-logo--mono.svg" alt="StopTheScroll Logo">
+            <a href="/">
+                <img src="/images/header-logo--mono.svg" alt="StopTheScroll Logo">
+            </a>
+
             <div class="footer__links">
-                <p class="footer__typography--thin">Send feedback</p>
-                <p class="footer__typography--thin">Privacy policy</p>
-                <p class="footer__typography--thin">About StopTheScroll</p>
+                <a href="/feedback.html" class="footer__typography--thin">Send feedback</a>
+                <a href="/privacypolicy.html" class="footer__typography--thin">Privacy policy</a>
+                <a href="/about.html" class="footer__typography--thin">About StopTheScroll</a>
             </div>
             <p class="footer__typography--bold">Yav Find - HSC Enterprise Computing Major Project</p>
         </div>

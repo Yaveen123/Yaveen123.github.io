@@ -23,6 +23,7 @@
 }
 
 .card {
+    text-decoration: none;
     display: flex;
 height: 499px;
 min-width: 320px;
@@ -32,6 +33,10 @@ gap: 10px;
 flex: 1 0 0;
 border-radius: 10px 10px 10px 0px;
 background: #FFF;
+}
+.card:hover {
+    background: #3C2BF620;
+    outline: solid px black;
 }
 
 .card__image {
@@ -63,7 +68,13 @@ border-radius: 5px 5px 5px 0px;
 background: #3C2BF6;
 height: 38px;
 border: transparent;
+transition: all 0.1s;
 }
+.card__content__button:hover {
+background: #252525;
+
+}
+
 
 .card__typography--header--bold {
     color: #000;
