@@ -28,4 +28,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('resize', handleResize);
     handleResize(); // Call once on load to set initial state
+
+
+    document.querySelectorAll('.accordion__header').forEach(function(header) {
+        const body = header.nextElementSibling;
+
+        body.style.display = 'none';
+        header.dataset.state = 'closed';
+        
+        header.addEventListener('click', function() {
+            if (body && body.classList.contains('accordion__body')) {
+                if (header.dataset.state === 'open') {
+                    body.style.display = 'none';
+                    header.dataset.state = 'closed';
+                    header.querySelector('.accordion__header__arrow').style.transform = 'rotate(0deg)'
+                } else {
+                    body.style.display = '';
+                    header.dataset.state = 'open';
+                    header.querySelector('.accordion__header__arrow').style.transform = 'rotate(180deg)'
+                }
+                console.log(header.dataset.state);
+            }
+        });
+    });
 });
+
+
